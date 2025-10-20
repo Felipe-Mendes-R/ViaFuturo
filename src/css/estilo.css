@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Telegraf";
+    src: local(telegraf-webfont),
+        url("../assets/telegraf-webfont/TelegrafRegular_272984568a25d8528fe2de8b20b29011.woff") format("woff");
+}
+
+.inicioConteudo{
+    background: url(../assets/fundoInicio.png) center center;
+    background-size: cover;
+    height: 50rem;
+}
+
+.inicioConteudoParcial{
+    margin: auto 2% auto auto;
+    padding-top: 30px;
+
+    width: 25%;
+    height: 50%;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    margin: 1% auto auto 1%;
+    width: 10%;
+    height:auto;
+}
+
+.tituloPrincipal1{
+    font-family: Telegraf;
+    font-size: 46.1px;
+    color: #ffffff;
+}
+
+.textoPrincipal{
+    padding-top: 11px;
+    font-size: 18.5px;
+    color: #ffffff;
+}
+
+.botao{
+    width: 60%;
+    height: 10%;
+
+    margin: auto;
+    background-color: #c64ad6;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.5s;
+}
+
+.botao:hover{
+    width: 65%;
+    height: 11%;
+}
+
+.botao a{
+    text-decoration: none;
+    font-family: Telegraf;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 2px;
+
+    transition: 0.5s;
+}
