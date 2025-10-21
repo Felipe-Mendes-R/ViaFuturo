@@ -17,45 +17,54 @@
 }
 
 .inicioConteudoParcial{
-    margin: auto 2% auto auto;
-    padding-top: 30px;
+    margin: 2% 2% auto auto;
 
     width: 25%;
-    height: 50%;
+    height: 55%;
 
     text-align: center;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    align-items: center;
+}
+
+.inicioConteudoParcial p{
+    margin: 2.4% auto 2.4% auto;
 }
 
 .logo{
     margin: 1% auto auto 1%;
-    width: 10%;
+    width: 12%;
     height:auto;
 }
 
 .tituloPrincipal1{
     font-family: Telegraf;
-    font-size: 46.1px;
+    font-size: 55px;
     color: #ffffff;
 }
 
 .textoPrincipal{
     padding-top: 11px;
-    font-size: 18.5px;
+    font-size: 23px;
     color: #ffffff;
 }
 
+.tituloPrincipal2{
+    font-family: Telegraf;
+    font-size: 55px;
+    color: #bf9fc4;
+}
+
 .botao{
-    width: 60%;
-    height: 10%;
+    width: 83%;
+    height: 11.3%;
 
     margin: auto;
     background-color: #c64ad6;
-    border-radius: 20px;
+    border-radius: 25px;
 
     display: flex;
     justify-content: center;
@@ -65,17 +74,54 @@
 }
 
 .botao:hover{
-    width: 65%;
-    height: 11%;
+    width: 73%;
+    height: 12.3%;
 }
 
 .botao a{
     text-decoration: none;
     font-family: Telegraf;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     color: #ffffff;
     letter-spacing: 2px;
 
     transition: 0.5s;
+}
+
+.botao:hover a{
+    font-size: 17px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: linear-gradient(to right, #bf9fc4, #79318b);
+    padding: 6% 18%;
+}
+
+.sobre h1{
+    margin-bottom: 3%;
+}
+
+.sobre p{
+    margin: 3%;
+}
+
+.iconeSobre{
+    margin-top: 3%;
+    width:50%;
+}
+
+.recursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #79318b;
+    padding: 6% 18%;
 }
